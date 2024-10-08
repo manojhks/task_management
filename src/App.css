@@ -1,0 +1,89 @@
+.navbar,
+.footer {
+  background-color: #000;
+  height: 80px;
+  width: 100%;
+}
+.title {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+}
+.actionsbar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-searchbar {
+  width: 30%;
+  height: 40px;
+  border: solid 1.5px rgb(222, 222, 222);
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.filter-searchbar::placeholder {
+  color: gray;
+}
+.addtask-button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+.dropdown {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: rgb(222, 222, 222) !important;
+  border-radius: 5px !important;
+  font-weight: 600 !important;
+}
+.table-head {
+  color: rgb(85, 85, 85) !important;
+}
+.add-subtask-button {
+  border: none;
+  background-color: #ffffff00;
+  font-weight: bold;
+}
+.action-button {
+  position: relative;
+}
+.action-dropdown {
+  position: relative;
+}
+
+.offcanvas-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.offcanvas {
+  text-align: center;
+}
+.pagination-div {
+  display: flex;
+  justify-content: center;
+}
+.pagination-arrow {
+  border: solid 2px gray;
+  border-radius: 10%;
+  color: black;
+}
+.pagination-arrow:disabled {
+  border: solid 2px rgb(221, 221, 221);
+  border-radius: 10%;
+  color: rgb(149, 149, 149);
+}

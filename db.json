@@ -1,0 +1,77 @@
+{
+  "tasks": [
+    {
+      "id": "216d",
+      "title": "Create a Todo Lists",
+      "status": "In progress",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "subtask_title": "Get username from the User",
+          "subtask_status": "In progress"
+        },
+        {
+          "subtask_id": 2,
+          "subtask_title": "Get email from the User",
+          "subtask_status": "Todo"
+        },
+        {
+          "subtask_id": 3,
+          "subtask_title": "aaa",
+          "subtask_status": "Todo"
+        }
+      ]
+    },
+    {
+      "id": "0ead",
+      "title": "Project Planning",
+      "status": "In progress",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "subtask_title": "Define project scope",
+          "subtask_status": "In progress"
+        },
+        {
+          "subtask_id": 2,
+          "subtask_title": "Set project timeline and milestones",
+          "subtask_status": "Todo"
+        },
+        {
+          "subtask_id": 3,
+          "subtask_title": "Identify required resources",
+          "subtask_status": "Todo"
+        }
+      ]
+    },
+    {
+      "id": "4ba1",
+      "title": "Frontend Development",
+      "status": "Todo",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "subtask_title": "UI Design",
+          "subtask_status": "Todo"
+        },
+        {
+          "subtask_id": 2,
+          "subtask_title": "Component Development",
+          "subtask_status": "Todo"
+        }
+      ]
+    },
+    {
+      "id": "927f",
+      "title": "Documentation",
+      "status": "Todo",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "subtask_title": "Create user manuals",
+          "subtask_status": "Todo"
+        }
+      ]
+    }
+  ]
+}
